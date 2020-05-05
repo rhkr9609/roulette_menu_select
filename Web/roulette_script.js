@@ -87,15 +87,20 @@ var text_h = 0;
 })(jQuery);
 
 function select_btn(str){
-	arr[arr_index] = {
-			color : "#" + Math.round(Math.random() * 0xffffff).toString(16),
-			text : str	
+	if(arr_index > 12){
+		alert('더 이상 입력할 수 없습니다.');
 	}
-	arr_index++;
-	$(function() {
-		setting_text_h();
-		$('.box-roulette').roulette();
-	});
+	else{
+		arr[arr_index] = {
+				color : "#" + Math.round(Math.random() * 0xffffff).toString(16),
+				text : str	
+		}
+		arr_index++;
+		$(function() {
+			setting_text_h();
+			$('.box-roulette').roulette();
+		});
+	}
 }
 
 function input_btn(){
