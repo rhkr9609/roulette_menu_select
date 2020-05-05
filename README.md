@@ -2,6 +2,8 @@
 
 중간 프로젝트용 경북대학교 쪽문 메뉴 선택 룰렛
 
+![KakaoTalk_20200505_223942945](https://user-images.githubusercontent.com/45326283/81072650-6a663f80-8f21-11ea-9f9c-3d42c1dbb297.png)
+
 ## Mid_Web_Project
 
 index.html, roulette_scrpit.js, roulette.style.css로 구성됨
